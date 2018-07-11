@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>TotallySimple</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>connectiq.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>connectiq.projectNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>resources/fonts</name>
+			<type>2</type>
+			<location>C:/Users/dobbs/eclipse-workspace/TotallySimple/resources/fonts</location>
+		</link>
+	</linkedResources>
+</projectDescription>
