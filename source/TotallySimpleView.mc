@@ -43,9 +43,14 @@ class TotallySimpleView extends WatchUi.WatchFace {
         dc.clear();
         
         var clockTime = System.getClockTime();
+        var hour = clockTime.hour;
+        hour = hour % 12;
+        if (hour == 0) {
+        	hour = 12; 
+        }
         var minutes = clockTime.min;
         var seconds = clockTime.sec;
-        var hourString = Lang.format("$1$", [clockTime.hour]);
+        var hourString = Lang.format("$1$", [hour]);
         
         // + draw background circle 
         dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_BLACK);
@@ -60,7 +65,7 @@ class TotallySimpleView extends WatchUi.WatchFace {
         	endDegree = 360 + endDegree; 
         }
         dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_GREEN);
-        dc.setPenWidth(15);
+        dc.setPenWidth(dc.getWidth());
         dc.drawArc(dc.getWidth() / 2, dc.getHeight() / 2, dc.getWidth() / 2, 1, startDegree, endDegree); // 1 == the arc direction. opposite would be 0
         // - draw minute arc
         
