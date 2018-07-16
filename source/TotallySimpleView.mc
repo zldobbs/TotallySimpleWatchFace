@@ -14,7 +14,7 @@ class TotallySimpleView extends WatchUi.WatchFace {
     function initialize() {
         WatchFace.initialize();
         stepGoal = ActivityMonitor.getInfo().stepGoal;
-        timeFont = loadResource(Rez.Fonts.quicksand);
+        timeFont = loadResource(Rez.Fonts.roboto);
     }
 
     // Load your resources here
@@ -27,45 +27,47 @@ class TotallySimpleView extends WatchUi.WatchFace {
     // loading resources into memory.
     function onShow() {
     }
+    
+    function drawHours() {
+    }
+    
+    function drawMinutes() {
+    }
+    
+ 	function drawSeconds() {
+    }
 
     // Update the view
     function onUpdate(dc) {
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
         dc.clear();
-        // Get and show the current time
+        
         var clockTime = System.getClockTime();
         var minutes = clockTime.min;
-        var timeString = Lang.format("$1$", [clockTime.hour]);
-        // + draw background circle
-        var currSteps = ActivityMonitor.getInfo().steps;
-        var percentOfGoal = currSteps / stepGoal;
-        System.println("Step goal: " + stepGoal);
-        System.println("Current steps: " + currSteps);
-        System.println("Percent: " + percentOfGoal); // percent is being floored ... 
-        if (percentOfGoal > 1) {
-        	dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_BLACK);
-        }
-        else {
-        	dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_BLACK);
-        }
+        var seconds = clockTime.sec;
+        var hourString = Lang.format("$1$", [clockTime.hour]);
+        
+        // + draw background circle 
+        dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_BLACK);
         dc.fillCircle(dc.getWidth() / 2, dc.getHeight() / 2, dc.getWidth() / 2);
         // - draw background circle
+        
         // + draw minute arc
         var degreeOffset = minutes * 6; // every minute = 6 degrees around circle
         var startDegree = 90;
         var endDegree = startDegree - degreeOffset;
-        System.println("initial end: " + endDegree); // make sure it goes negative
         if (endDegree < 0) {
         	endDegree = 360 + endDegree; 
         }
-        System.println("end end: " + endDegree); // redundancy is cool
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_WHITE);
-        dc.setPenWidth(8);
-        dc.drawArc(dc.getWidth() / 2, dc.getHeight() / 2, dc.getWidth() / 3, 1, startDegree, endDegree); // 1 == the arc direction. opposite would be 0
+        dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_GREEN);
+        dc.setPenWidth(15);
+        dc.drawArc(dc.getWidth() / 2, dc.getHeight() / 2, dc.getWidth() / 2, 1, startDegree, endDegree); // 1 == the arc direction. opposite would be 0
         // - draw minute arc
+        
         // + draw time
-        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(dc.getWidth() / 2, 30, timeFont, timeString, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        var timeFontSize = 64;
+        dc.drawText(dc.getWidth() / 2, (dc.getHeight() / 2) - (timeFontSize / 2), timeFont, hourString, Graphics.TEXT_JUSTIFY_CENTER); 
         // - draw time
     }
 

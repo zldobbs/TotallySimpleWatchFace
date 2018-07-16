@@ -14,49 +14,47 @@
 <entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="21" pc="268435622" symbol="onLayout"/>
 <entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="22" pc="268435626" symbol="onLayout"/>
 <entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="28" pc="268435664" symbol="onShow"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="32" pc="268435669" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="33" pc="268435673" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="34" pc="268435709" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="36" pc="268435721" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="37" pc="268435738" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="38" pc="268435748" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="40" pc="268435792" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="41" pc="268435815" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="42" pc="268435828" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="43" pc="268435858" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="44" pc="268435882" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="45" pc="268435906" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="46" pc="268435917" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="49" pc="268435956" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="51" pc="268435992" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="54" pc="268436055" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="55" pc="268436065" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="56" pc="268436072" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="57" pc="268436079" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="58" pc="268436103" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="59" pc="268436114" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="61" pc="268436127" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="62" pc="268436151" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="63" pc="268436187" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="64" pc="268436204" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="67" pc="268436276" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="68" pc="268436312" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="75" pc="268436369" symbol="onHide"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="79" pc="268436374" symbol="onExitSleep"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="83" pc="268436379" symbol="onEnterSleep"/>
-<entry filename="C:\\Windows\\System32\\Rez" lineNum="21" pc="268436384" symbol="WatchFace"/>
-<entry filename="C:\\Windows\\System32\\Rez" lineNum="25" pc="268436396" symbol="WatchFace"/>
-<entry filename="C:\\Windows\\System32\\Rez" lineNum="26" pc="268436567" symbol="WatchFace"/>
-<entry filename="C:\\Windows\\System32\\Rez" lineNum="27" pc="268436600" symbol="WatchFace"/>
-<entry filename="C:\\Windows\\System32\\Rez" lineNum="28" pc="268436652" symbol="WatchFace"/>
-<entry filename="C:\\Windows\\System32\\Rez" lineNum="31" pc="268436698" symbol="WatchFace"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="31" pc="268435669" symbol="drawHours"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="34" pc="268435674" symbol="drawMinutes"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="37" pc="268435679" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="41" pc="268435684" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="42" pc="268435688" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="43" pc="268435724" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="45" pc="268435736" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="46" pc="268435753" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="47" pc="268435763" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="48" pc="268435773" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="51" pc="268435817" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="52" pc="268435853" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="56" pc="268435916" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="57" pc="268435926" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="58" pc="268435933" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="59" pc="268435940" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="60" pc="268435951" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="62" pc="268435964" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="63" pc="268436000" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="64" pc="268436017" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="68" pc="268436089" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="69" pc="268436125" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="70" pc="268436132" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="77" pc="268436210" symbol="onHide"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="81" pc="268436215" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="85" pc="268436220" symbol="onEnterSleep"/>
+<entry filename="C:\\Windows\\System32\\Rez" lineNum="22" pc="268436225" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" lineNum="26" pc="268436237" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" lineNum="27" pc="268436408" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" lineNum="28" pc="268436441" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" lineNum="29" pc="268436493" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" lineNum="32" pc="268436539" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388644" module="true" symbol="System"/>
+<entry id="18" method="true" symbol="drawHours"/>
 <entry field="true" id="14" symbol="quicksand"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389349" symbol="justification"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="19" method="true" symbol="drawMinutes"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
@@ -65,13 +63,15 @@
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="15" symbol="AppName"/>
+<entry field="true" id="16" symbol="AppName"/>
+<entry id="20" method="true" symbol="drawSeconds"/>
 <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
 <entry id="9" object="true" symbol="TotallySimpleApp"/>
 <entry field="true" id="13" symbol="LauncherIcon"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry field="true" id="16" symbol="timeFont"/>
+<entry field="true" id="17" symbol="timeFont"/>
+<entry field="true" id="15" symbol="roboto"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
@@ -95,18 +95,18 @@
 <entry endPc="268435484" name="state" stackId="1" startPc="268435479"/>
 <entry endPc="268435489" name="state" stackId="1" startPc="268435484"/>
 <entry endPc="268435664" name="dc" stackId="1" startPc="268435622"/>
-<entry endPc="268436368" name="endDegree" stackId="9" startPc="268435673"/>
-<entry endPc="268436368" name="minutes" stackId="3" startPc="268435673"/>
-<entry endPc="268436368" name="percentOfGoal" stackId="6" startPc="268435673"/>
-<entry endPc="268436368" name="timeString" stackId="4" startPc="268435673"/>
-<entry endPc="268436368" name="degreeOffset" stackId="7" startPc="268435673"/>
-<entry endPc="268436368" name="clockTime" stackId="2" startPc="268435673"/>
-<entry endPc="268436368" name="startDegree" stackId="8" startPc="268435673"/>
-<entry endPc="268436368" name="currSteps" stackId="5" startPc="268435673"/>
-<entry endPc="268436369" name="dc" stackId="1" startPc="268435669"/>
-<entry endPc="268436715" name="rez_cmp_local_bitmap_TimeLabel" stackId="2" startPc="268436396"/>
-<entry endPc="268436715" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="3" startPc="268436396"/>
-<entry endPc="268436716" name="dc" stackId="1" startPc="268436384"/>
+<entry endPc="268436209" name="endDegree" stackId="8" startPc="268435688"/>
+<entry endPc="268436209" name="hourString" stackId="5" startPc="268435688"/>
+<entry endPc="268436209" name="minutes" stackId="3" startPc="268435688"/>
+<entry endPc="268436209" name="degreeOffset" stackId="6" startPc="268435688"/>
+<entry endPc="268436209" name="clockTime" stackId="2" startPc="268435688"/>
+<entry endPc="268436209" name="timeFontSize" stackId="9" startPc="268435688"/>
+<entry endPc="268436209" name="startDegree" stackId="7" startPc="268435688"/>
+<entry endPc="268436209" name="seconds" stackId="4" startPc="268435688"/>
+<entry endPc="268436210" name="dc" stackId="1" startPc="268435684"/>
+<entry endPc="268436556" name="rez_cmp_local_bitmap_TimeLabel" stackId="2" startPc="268436237"/>
+<entry endPc="268436556" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="3" startPc="268436237"/>
+<entry endPc="268436557" name="dc" stackId="1" startPc="268436225"/>
 </localVars>
 <annotations/>
 <functions>
@@ -134,6 +134,15 @@
 <functionEntry accessMode="public" name="onShow" parent="TotallySimpleView">
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" name="drawHours" parent="TotallySimpleView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawMinutes" parent="TotallySimpleView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawSeconds" parent="TotallySimpleView">
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="onUpdate" parent="TotallySimpleView">
 <param id="dc"/>
 <documentation/>
@@ -159,9 +168,9 @@
 <dataEntry offset="316" parentId="Rez" symbolId="Drawables" type="module"/>
 <dataEntry offset="355" parentId="Rez" symbolId="Menus" type="module"/>
 <dataEntry offset="386" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="425" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="456" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="495" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="534" parentId="globals" symbolId="TotallySimpleView" type="class"/>
+<dataEntry offset="433" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="464" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="503" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="542" parentId="globals" symbolId="TotallySimpleView" type="class"/>
 </dataEntryOffsetMappings>
 </debugInfo>
