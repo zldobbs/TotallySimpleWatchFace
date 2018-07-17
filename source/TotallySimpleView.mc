@@ -3,38 +3,24 @@ using Toybox.Graphics;
 using Toybox.System;
 using Toybox.Lang;
 using Toybox.ActivityMonitor;
+using Toybox.Application;
 
 class TotallySimpleView extends WatchUi.WatchFace {
-
-	// change the color based on closeness to step goal
-	var stepGoal = 0;
-	// custom font for the time 
-	var timeFont = null;
+	
+	var timeFont 	= null; // custom font for the time 
+	var penColor 	= null;	// color of ring for minutes
 
     function initialize() {
         WatchFace.initialize();
-        stepGoal = ActivityMonitor.getInfo().stepGoal;
-        timeFont = loadResource(Rez.Fonts.roboto);
     }
 
-    // Load your resources here
     function onLayout(dc) {
         setLayout(Rez.Layouts.WatchFace(dc));
+        timeFont = loadResource(Rez.Fonts.roboto);
+        penColor = Application.Properties.getValue("PenColor");
     }
 
-    // Called when this View is brought to the foreground. Restore
-    // the state of this View and prepare it to be shown. This includes
-    // loading resources into memory.
     function onShow() {
-    }
-    
-    function drawHours() {
-    }
-    
-    function drawMinutes() {
-    }
-    
- 	function drawSeconds() {
     }
 
     // Update the view
@@ -49,11 +35,10 @@ class TotallySimpleView extends WatchUi.WatchFace {
         	hour = 12; 
         }
         var minutes = clockTime.min;
-        var seconds = clockTime.sec;
         var hourString = Lang.format("$1$", [hour]);
         
         // + draw background circle 
-        dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_BLACK);
+        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
         dc.fillCircle(dc.getWidth() / 2, dc.getHeight() / 2, dc.getWidth() / 2);
         // - draw background circle
         
@@ -61,10 +46,11 @@ class TotallySimpleView extends WatchUi.WatchFace {
         var degreeOffset = minutes * 6; // every minute = 6 degrees around circle
         var startDegree = 90;
         var endDegree = startDegree - degreeOffset;
-        if (endDegree < 0) {
+        if (endDegree <= 0) {
         	endDegree = 360 + endDegree; 
         }
-        dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_GREEN);
+        System.println(penColor);
+        dc.setColor(penColor, penColor);
         dc.setPenWidth(dc.getWidth());
         dc.drawArc(dc.getWidth() / 2, dc.getHeight() / 2, dc.getWidth() / 2, 1, startDegree, endDegree); // 1 == the arc direction. opposite would be 0
         // - draw minute arc
