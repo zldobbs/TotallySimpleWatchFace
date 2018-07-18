@@ -105,6 +105,7 @@ class TotallySimpleView extends WatchUi.WatchFace {
         // - draw heart
         
         // + draw steps 
+        
         // - draw steps
     }
 

@@ -62,9 +62,9 @@
 <entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="99" pc="268436496" symbol="onUpdate"/>
 <entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="103" pc="268436573" symbol="onUpdate"/>
 <entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="104" pc="268436592" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="114" pc="268436670" symbol="onHide"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="118" pc="268436675" symbol="onExitSleep"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="122" pc="268436680" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="115" pc="268436670" symbol="onHide"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="119" pc="268436675" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TotallySimple\\source\\TotallySimpleView.mc" lineNum="123" pc="268436680" symbol="onEnterSleep"/>
 <entry filename="C:\\Windows\\System32\\Rez" lineNum="29" pc="268436685" symbol="WatchFace"/>
 <entry filename="C:\\Windows\\System32\\Rez" lineNum="33" pc="268436697" symbol="WatchFace"/>
 <entry filename="C:\\Windows\\System32\\Rez" lineNum="34" pc="268436868" symbol="WatchFace"/>
