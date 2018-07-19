@@ -88,7 +88,7 @@ class TotallySimpleView extends WatchUi.WatchFace {
         if (endDegree <= 0) {
         	endDegree = 360 + endDegree; 
         }
-        dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_BLUE); // change this based of setting
+        dc.setColor(penColor, penColor); // change this based of setting
         dc.setPenWidth(25);
         dc.drawArc(dc.getWidth() / 2, dc.getHeight() / 2, dc.getWidth() / 2, 1, startDegree, endDegree); // 1 == the arc direction. opposite would be 0
         // - draw minute arc
@@ -108,6 +108,12 @@ class TotallySimpleView extends WatchUi.WatchFace {
         
         // - draw steps
     }
+    
+    function onSettingsChanged() {
+    	System.println("Settings changed");
+		penColor = Application.Properties.getValue("PenColor");
+		requestUpdate();
+	}
 
     // Called when this View is removed from the screen. Save the
     // state of this View here. This includes freeing resources from
