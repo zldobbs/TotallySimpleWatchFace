@@ -3,4 +3,7 @@
     <bitmap id="GreenHeart" filename="green_heart.png" />
     <bitmap id="YellowHeart" filename="yellow_heart.png" />
     <bitmap id="RedHeart" filename="red_heart.png" />
+    <bitmap id="GreenBolt" filename="green_bolt.png" />
+    <bitmap id="YellowBolt" filename="yellow_bolt.png" />
+    <bitmap id="RedBolt" filename="red_bolt.png" />
 </drawables>

@@ -1,4 +1,5 @@
 <fonts>
 	<font id="quicksand" filename="quicksand.fnt" filter="0123456789 .:" antialias="true" />
 	<font id="roboto" filename="roboto.fnt" filter="0123456789" antialias="true" />
+	<font id="robotoThin" filename="robotoThin28.fnt" antialias="true" />
 </fonts>
